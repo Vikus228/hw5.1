@@ -1,27 +1,74 @@
-header {
-    border: 1px solid red;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
 
 nav {
-    border: 1px solid blue;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
+    width: 100%;
 }
 
-main {
-    border: 1px solid green;
+#Garry {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
 }
 
-footer {
-    border: 1px solid yellow;
+.garry {
+    display: flex;
+    margin: 10px;
+    height: 350px;
+    width: 350px;
+}
+
+#FairyTale {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.FairyTale {
+    display: flex;
+    margin: 10px;
+    height: 350px;
+    width: 350px;
+}
+
+h1 {
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    font-size: 48px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a:link {
+    color: rgb(59, 107, 165);
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: rgb(38, 38, 109);
+}
+
+img:hover {
+    height: 500px;
+    width: 500px;
 }
